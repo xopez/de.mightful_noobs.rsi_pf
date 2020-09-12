@@ -6,6 +6,10 @@ Website:
 https://mightful-noobs.de/
 
 --
+Sponsor this project:
+https://www.paypal.me/SaschaMoser
+
+--
 Supported Versions:
 WoltLab Suite 3.0
 WoltLab Suite 3.1
