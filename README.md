@@ -14,6 +14,7 @@ Supported Versions:
 WoltLab Suite 3.0
 WoltLab Suite 3.1
 WoltLab Suite 5.2
+WoltLab Suite 5.3
 
 --
 Description:
