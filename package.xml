@@ -6,18 +6,18 @@
 		<packagedescription><![CDATA[Adds user profile fields for Roberts Space Industries.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Fügt ein Benutzerprofilfelder für Roberts Space Industries hinzu.]]></packagedescription>
 		<packageurl><![CDATA[https://pluginstore.woltlab.com/file/3307-rsi-profilfeld/]]></packageurl>
-		<version><![CDATA[1.1.0]]></version>
-		<date><![CDATA[2020-09-12]]></date>
+		<version>1.2.0</version>
+		<date>2022-07-07</date>
 		<license><![CDATA[Creative Commons <by-nc> <https://creativecommons.org/licenses/by-nc/4.0/legalcode>]]></license>
 	</packageinformation>
 
 	<authorinformation>
 		<author><![CDATA[Xopez]]></author>
-		<authorurl><![CDATA[https://mightful-noobs.de/]]></authorurl>
+		<authorurl>https://mightful-noobs.de/</authorurl>
 	</authorinformation>
 
 	<requiredpackages>
-		<requiredpackage minversion="2.0.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+		<requiredpackage minversion="5.4.0 Alpha 1">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 
 	<excludedpackages>
