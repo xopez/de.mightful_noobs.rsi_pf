@@ -24,10 +24,6 @@
 		<excludedpackage version="6.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
 
-	<compatibility>
-		<api version="2018"/>
-	</compatibility>
-
 	<instructions type="install">
 		<instruction type="file"/>
 		<instruction type="userOption"/>
