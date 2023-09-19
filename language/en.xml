@@ -3,7 +3,7 @@
 	<import>
 		<category name="wcf.user.option">
 			<item name="wcf.user.option.contactRsi"><![CDATA[Roberts Space Industries]]></item>
-			<item name="wcf.user.option.contactRsi.description"><![CDATA[Enter your Roberts Space Industries-Username.]]></item>
+			<item name="wcf.user.option.contactRsi.description"><![CDATA[Enter your Roberts Space Industries-Handle.]]></item>
 			<item name="wcf.user.option.organizeRsi"><![CDATA[Roberts Space Industries - Organization]]></item>
 			<item name="wcf.user.option.organizeRsi.description"><![CDATA[Enter your Roberts Space Industries Spectrum-ID.]]></item>
 		</category>
