@@ -9,7 +9,7 @@ Adds a user profile field to link to a Roberts Space Industries organization or 
 - WoltLab Suite 6.0
 
 ## License Agreement:
-- Creative Commons <by-nc> (https://github.com/D1strict/de.mightful_noobs.rsi_pf/blob/master/LICENSE)
+- Creative Commons <by-nc> (https://github.com/xopez/de.mightful_noobs.rsi_pf/blob/master/LICENSE)
 
 ## Website
 - https://mightful-noobs.de/
