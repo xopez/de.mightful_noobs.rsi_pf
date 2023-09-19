@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/userOption.xsd">
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/userOption.xsd">
 	<import>
 		<options>
-                    <option name="contactRsi">
-                        <categoryname>profile.contact</categoryname>
-                        <optiontype>text</optiontype>
-                        <outputclass>wcf\system\option\user\RsiUserOptionOutput</outputclass>
-                        <searchable>1</searchable>
-                        <visible>15</visible>
-                        <editable>3</editable>
-                    </option>
-					<option name="organizeRsi">
-                        <categoryname>profile.contact</categoryname>
-                        <optiontype>text</optiontype>
-                        <outputclass>wcf\system\option\user\RsiOrgOptionOutput</outputclass>
-                        <searchable>1</searchable>
-                        <visible>15</visible>
-                        <editable>3</editable>
-                    </option>
+                <option name="contactRsi">
+                    <categoryname>profile.contact</categoryname>
+                    <optiontype>text</optiontype>
+                    <outputclass>wcf\system\option\user\RsiUserOptionOutput</outputclass>
+                    <searchable>1</searchable>
+                    <visible>15</visible>
+                    <editable>3</editable>
+                </option>
+				<option name="organizeRsi">
+                    <categoryname>profile.contact</categoryname>
+                    <optiontype>text</optiontype>
+                    <outputclass>wcf\system\option\user\RsiOrgOptionOutput</outputclass>
+                    <searchable>1</searchable>
+                    <visible>15</visible>
+                    <editable>3</editable>
+                </option>
 		</options>
 	</import>
 </data>

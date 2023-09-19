@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de">
-
-	<category name="wcf.user.option">
-		<item name="wcf.user.option.contactRsi"><![CDATA[Roberts Space Industries]]></item>
-		<item name="wcf.user.option.contactRsi.description"><![CDATA[Gebe Deinen Roberts Space Industries-Benutzernamen ein.]]></item>
-		<item name="wcf.user.option.organizeRsi"><![CDATA[Roberts Space Industries - Organisation]]></item>
-		<item name="wcf.user.option.organizeRsi.description"><![CDATA[Gebe die Roberts Space Industries Spectrum-ID ein.]]></item>
-	</category>
-
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/5.4/language.xsd" languagecode="de">
+	<import>
+		<category name="wcf.user.option">
+			<item name="wcf.user.option.contactRsi"><![CDATA[Roberts Space Industries]]></item>
+			<item name="wcf.user.option.contactRsi.description"><![CDATA[Gebe Deinen Roberts Space Industries-Benutzernamen ein.]]></item>
+			<item name="wcf.user.option.organizeRsi"><![CDATA[Roberts Space Industries - Organisation]]></item>
+			<item name="wcf.user.option.organizeRsi.description"><![CDATA[Gebe die Roberts Space Industries Spectrum-ID ein.]]></item>
+		</category>
+	</import>
 </language>

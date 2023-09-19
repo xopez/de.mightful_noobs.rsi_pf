@@ -6,11 +6,7 @@ Roberts Space Industries-Profilefields - mightful_noobs.rsi_pf
 Adds a user profile field to link to a Roberts Space Industries organization or user.
 
 ## Supported Versions:
-- WoltLab Suite 3.0
-- WoltLab Suite 3.1
-- WoltLab Suite 5.2
-- WoltLab Suite 5.3
-- WoltLab Suite 5.4
+- WoltLab Suite 6.0
 
 ## License Agreement:
 - Creative Commons <by-nc> (https://github.com/D1strict/de.mightful_noobs.rsi_pf/blob/master/LICENSE)
