@@ -1,23 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/userOption.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/userOption.xsd">
 	<import>
 		<options>
-                <option name="contactRsi">
-                    <categoryname>profile.contact</categoryname>
-                    <optiontype>text</optiontype>
-                    <outputclass>wcf\system\option\user\RsiUserOptionOutput</outputclass>
-                    <searchable>1</searchable>
-                    <visible>15</visible>
-                    <editable>3</editable>
-                </option>
-				<option name="organizeRsi">
-                    <categoryname>profile.contact</categoryname>
-                    <optiontype>text</optiontype>
-                    <outputclass>wcf\system\option\user\RsiOrgOptionOutput</outputclass>
-                    <searchable>1</searchable>
-                    <visible>15</visible>
-                    <editable>3</editable>
-                </option>
+			<option name="contactRsi">
+				<categoryname>profile.contact</categoryname>
+				<optiontype>labeledUrl</optiontype>
+				<validationpattern>^(?![-_ ])(?!.*[-_ ]$)[A-Za-z0-9]+$</validationpattern>
+				<labeledUrl>https://robertsspaceindustries.com/citizens/%s</labeledUrl>	
+				<searchable>1</searchable>
+				<visible>15</visible>
+				<editable>3</editable>
+				<outputclass>wcf\system\option\user\LabeledUrlUserOptionOutput</outputclass>
+			</option>
+			<option name="organizeRsi">
+				<categoryname>profile.contact</categoryname>
+				<optiontype>text</optiontype>
+				<validationpattern>^(?![-_ ])(?!.*[-_ ]$)[A-Za-z0-9]+$</validationpattern>
+				<outputclass>wcf\system\option\user\LabeledUrlUserOptionOutput</outputclass>
+				<searchable>1</searchable>
+				<visible>15</visible>
+				<editable>3</editable>
+				<labeledUrl>https://robertsspaceindustries.com/orgs/%s</labeledUrl>
+			</option>
 		</options>
 	</import>
 </data>
