@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/package.xsd" name="de.mightful_noobs.rsi_pf">
+<package xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/package.xsd" name="de.mightful_noobs.rsi_pf">
 	<packageinformation>
-		<packagename><![CDATA[RSI Profilefield]]></packagename>
-		<packagename language="de"><![CDATA[RSI Profilfeld]]></packagename>
-		<packagedescription><![CDATA[Adds user profile fields for Roberts Space Industries.]]></packagedescription>
-		<packagedescription language="de"><![CDATA[Fügt ein Benutzerprofilfelder für Roberts Space Industries hinzu.]]></packagedescription>
-		<packageurl><![CDATA[https://pluginstore.woltlab.com/file/3307-rsi-profilfeld/]]></packageurl>
-		<version>2.0.0</version>
-		<date>2023-09-18</date>
+		<!-- de.mightful_noobs.rsi_pf -->
+		<packagename>RSI Profilefield</packagename>
+		<packagename language="de">RSI Profilfeld</packagename>
+		<packagedescription>Adds user profile fields for Roberts Space Industries.</packagedescription>
+		<packagedescription language="de">Fügt Benutzerprofilfelder für Roberts Space Industries hinzu.</packagedescription>
+		<version>6.0.0</version>
+		<date>2023-11-01</date>
+		<packageurl>https://pluginstore.woltlab.com/file/3307-rsi-profilfeld/</packageurl>
 		<license><![CDATA[Creative Commons <by-nc> <https://creativecommons.org/licenses/by-nc/4.0/legalcode>]]></license>
 	</packageinformation>
-
 	<authorinformation>
-		<author><![CDATA[Xopez]]></author>
+		<author>Xopez, Felix | D1strict</author>
 		<authorurl>https://mightful-noobs.de/</authorurl>
 	</authorinformation>
-
 	<requiredpackages>
-		<requiredpackage minversion="6.0.0 RC 2">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="6.0.0">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
-
 	<excludedpackages>
 		<excludedpackage version="6.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
-
 	<instructions type="install">
-		<instruction type="file"/>
 		<instruction type="userOption"/>
 		<instruction type="language"/>
 	</instructions>
-	
 	<instructions type="update" fromversion="*">
-		<instruction type="file"/>
 		<instruction type="userOption"/>
 		<instruction type="language"/>
+		<instruction type="fileDelete"/>
 	</instructions>
 </package>
